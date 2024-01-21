@@ -1,0 +1,241 @@
+body {
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+    background-color: rgba(0, 47, 255, 0);
+    width: 100%;
+    height: 13vh;
+    padding: 0;
+    margin: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#A {
+    color: rgb(255, 0, 68);
+    display: inline-block;
+    font-size: 5vh;
+    margin-left: 5vh;
+    cursor: default;
+}
+
+#A:hover {
+    font-size: 7vh;
+    margin-left: 3.6vh
+}
+
+#div1 {
+    margin-left: 50%;
+
+}
+
+.navbut {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 9vh;
+    font-size: 3vh;
+    display: inline-block;
+
+
+}
+
+.navbut:hover {
+    color: rgb(255, 0, 68);
+    font-size: 3.5vh;
+    margin-left: 7.8vh;
+
+
+}
+
+#namedesc {
+    background-color: rgba(137, 43, 226, 0);
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+#logoimg {
+    margin-left: 5%;
+    margin-top: 15%;
+    height: 20vh;
+    width: 50vh;
+}
+
+#logoimg:hover {
+    margin-left: 2.8%;
+    margin-top: 14.5%;
+    width: 52vh;
+    height: 22vh;
+    cursor: none;
+
+}
+
+.desc {
+    padding: 0;
+    width: 100%;
+    margin-top: 3%;
+    margin-left: 10vh;
+    color: white;
+    background-color: rgb(196, 0, 52);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: default;
+}
+
+#cvdown {
+    padding: 0;
+    margin-left: 73vh;
+    margin-top: 0;
+    background-color: rgba(0, 255, 255, 0);
+    align-items: center;
+    display: flex;
+    width: 50%;
+    height: 20%;
+    color: white;
+}
+
+#downbut {
+    margin-left: 4vh;
+    width: 30vh;
+    height: 8vh;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 8px;
+    border-width: 3px;
+    border-style: groove;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 2.6vh;
+    /* font-style: italic; */
+}
+
+#downbut:hover {
+    width: 30.5vh;
+    height: 8.5vh;
+    margin-left: 3.7vh;
+    font-size: 3vh;
+    border-color: rgb(255, 0, 68);
+    color: rgb(255, 0, 68);
+    cursor: pointer;
+}
+
+#contact {
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    row-gap: 5vh;
+    column-gap: 20vh;
+    width: 90%;
+    height: max-content;
+    margin-left: 5%;
+    background-color: rgba(44, 97, 0, 0);
+    color: white;
+}
+
+#linkedin {
+
+    background-color: rgb(34, 89, 130);
+
+
+}
+
+#linkedin:hover {
+    box-shadow: 0px 0px 5vh 1vh rgb(34, 89, 130);
+}
+
+#email {
+
+    background-color: rgb(248, 68, 55);
+
+
+}
+
+#email:hover {
+    box-shadow: 0px 0px 5vh 1vh rgb(3248, 68, 55);
+}
+
+#discord {
+
+    background-color: rgb(95, 112, 190);
+
+
+}
+
+#discord:hover {
+    box-shadow: 0px 0px 5vh 1vh rgb(95, 112, 190);
+}
+
+#github {
+
+    background-color: rgb(36, 41, 47);
+
+
+}
+
+#github:hover {
+    box-shadow: 0px 0px 5vh 3vh rgb(57, 65, 74);
+}
+
+#insta {
+
+    background-image: linear-gradient(45deg, rgb(241, 211, 27)15%, rgb(245, 7, 18)45%, rgb(124, 58, 174) 70%);
+
+
+}
+
+#insta:hover {
+    box-shadow: -1.3vh 1.3vh 2vh 0.4vh rgb(255, 221, 1), 0vh 0vh 4vh 1vh rgb(255, 0, 13), 1.2vh -1.2vh 2vh 0.8vh rgb(144, 0, 255);
+    ;
+
+}
+
+.social {
+    width: 70vh;
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    border-radius: 50px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    position: relative;
+    /* margin-right: 5vh; */
+    /* margin-left: 10vh; */
+
+}
+
+.social:hover {
+    width: 71vh;
+    height: 51vh;
+}
+
+
+.socialimg {
+    height: 25vh;
+    width: 25vh;
+    margin-left: 5vh;
+}
+
+.socialtext {
+    color: white;
+    
+}
+
+.link {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: rgba(240, 248, 255, 0);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
